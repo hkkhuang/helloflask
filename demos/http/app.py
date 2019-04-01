@@ -169,7 +169,7 @@ def admin():
     return 'Welcome to admin page.'
 
 
-# log out user
+# log out user 用户登出 session.pop()
 @app.route('/logout')
 def logout():
     if 'logged_in' in session:
