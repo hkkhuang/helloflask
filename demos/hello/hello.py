@@ -7,6 +7,6 @@
 
 from app import app
 
-if __name__ == '__main__':
-    app.run(debug=True, port=5000)
-# 这种方式是 旧的启动开发服务器的方式，目前已经不推荐使用
+# if __name__ == '__main__':
+#     app.run(debug=True, port=5000)
+# # 这种方式是 旧的启动开发服务器的方式，目前已经不推荐使用

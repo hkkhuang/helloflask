@@ -20,7 +20,7 @@ app = Flask(__name__)
 # 一般来说响应的主体就是呈现在浏览器窗口的HTML页面
 @app.route('/')
 def index():
-    return '<h1>Hello, World!</h1>'
+    return '<h1>Hello, World,My name is hkk!</h1>'
 
 
 # route()装饰器的第一个参数是URL规则，用字符串表示，必须是以斜杠/开始
